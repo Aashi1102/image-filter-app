@@ -51,12 +51,14 @@ Full code available here: image_filter.py
 **⚙️ Installation & Setup**
 
 1. Clone the repository
-git clone 
+git clone https://github.com/Aashi1102/image-filter-app/tree/main
 cd image-filter-app
+
 2. Install dependencies
 pip install streamlit pillow
+
 3. Run the app
-streamlit run day5.py
+streamlit run image_filter.py
 
 **📸 How It Works**
 

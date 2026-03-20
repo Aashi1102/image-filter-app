@@ -1,4 +1,4 @@
-🖼️** Image Filter App**
+**🖼️** Image Filter App****
 
 A simple and interactive Image Processing Web App built using Streamlit and Pillow (PIL).
 This app allows users to upload an image and apply different filters like grayscale, blur, and contour in real-time.

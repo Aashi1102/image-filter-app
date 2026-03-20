@@ -1,9 +1,9 @@
-🖼️ Image Filter App
+🖼️** Image Filter App**
 
 A simple and interactive Image Processing Web App built using Streamlit and Pillow (PIL).
 This app allows users to upload an image and apply different filters like grayscale, blur, and contour in real-time.
 
-🚀 Features
+**🚀 Features**
 
 Upload images (.jpg, .png, .jpeg)
 
@@ -15,13 +15,13 @@ Apply filters:
 
 ✏️ Contour
 
-🖼️ Original view
+**🖼️ Original view**
 
 Instant preview of processed image
 
 Simple and user-friendly interface
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 Python
 
@@ -29,10 +29,13 @@ Streamlit
 
 Pillow (PIL)
 
-📂 Project Structure
-├── app.py / day5.py
+**📂 Project Structure**
+
+├──image_filter.py
+
 ├── README.md
-📜 Code Overview
+
+**📜 Code Overview**
 
 The app uses Streamlit for UI and Pillow for image processing.
 Example snippet:
@@ -43,17 +46,19 @@ if img:
     img = Image.open(img)
     option = st.selectbox("Select Filter", ["ORIGINAL","GRAYSCALE","BLUR","CONTOUR"])
 
-Full code available here:
+Full code available here: image_filter.py
 
-⚙️ Installation & Setup
+**⚙️ Installation & Setup**
+
 1. Clone the repository
-git clone https://github.com/your-username/image-filter-app.git
+git clone 
 cd image-filter-app
 2. Install dependencies
 pip install streamlit pillow
 3. Run the app
 streamlit run day5.py
-📸 How It Works
+
+**📸 How It Works**
 
 Upload an image
 
@@ -61,7 +66,7 @@ Select a filter from dropdown
 
 View the processed image instantly
 
-🌟 Future Improvements
+**🌟 Future Improvements**
 
 Add more filters (Sepia, Edge Detection, Sharpen)
 
@@ -71,15 +76,15 @@ Drag & drop upload support
 
 Image comparison view (before/after)
 
-🤝 Contributing
+**🤝 Contributing**
 
 Contributions are welcome!
 Feel free to fork this repo and submit a pull request.
 
-📄 License
+**📄 License**
 
 This project is open-source and available under the MIT License.
 
-🙌 Author
+**🙌 Author**
 
 Aashi Tomar
